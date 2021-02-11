@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance Convertor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-md-2">
+                <h1 class="display-4 text-center mb-3">Distance Convertor<span class="display-3"> App</span></h1>   
+                <form>
+                    <div class="form-group">
+                        <input id="metresInput" type="number" class="form-control form-control-lg" placeholder="Enter Distance (Metres)...">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card bg-info mb-2 p-2">
+                        <div class="card-block">
+                            <h5 class="text-dark">Millimeters (mm):</h5>
+                            <div id="mmOutput" class="font-weight-bold"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-danger mb-2 p-2">
+                        <div class="card-block">
+                            <h5 class="text-dark">Centimeters (cm):</h5>
+                            <div id="cmOutput" class="font-weight-bold"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-success mb-2 p-2">
+                        <div class="card-block">
+                            <h5 class="text-dark">Kilometers (km):</h5>
+                            <div id="kmOutput" class="font-weight-bold"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
