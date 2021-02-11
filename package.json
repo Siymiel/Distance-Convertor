@@ -1,0 +1,25 @@
+{
+  "name": "distance-convertor",
+  "version": "1.0.0",
+  "description": "A simple distance convertor build using javascript and bootstrap v4.3.1",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "distance-Convertor"
+  },
+  "keywords": [
+    "Distance",
+    "Convertor",
+    "Js",
+    "Bootstrap"
+  ],
+  "author": "Samuel Kinuthia",
+  "license": "MIT",
+  "homepage": "https://Siymiel/github.io/Distance-Convertor",
+  "dependencies": {
+    "git-pages": "^0.8.1"
+  }
+}
